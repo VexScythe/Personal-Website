@@ -9,3 +9,22 @@ export const MARQUEE_ICONS = [
   { src: '/mongodb.svg', alt: 'MongoDB' },
   { src: '/graphql.svg', alt: 'GraphQL' },
 ];
+
+export const links = [
+  {
+    name: 'home',
+    path: '/',
+  },
+  {
+    name: 'about',
+    path: '/about',
+  },
+  {
+    name: 'projects',
+    path: '/projects',
+  },
+  {
+    name: 'contact',
+    path: '/contact',
+  },
+];
