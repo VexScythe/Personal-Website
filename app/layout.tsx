@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import './globals.css';
 import localFont from 'next/font/local';
+import PageTransition from '@/components/PageTransition';
+import StairTransition from '@/components/StairTransition';
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -20,7 +22,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={myFont.className}>
         <Header />
-        {children}
+        <StairTransition />
+        <PageTransition>{children}</PageTransition>
       </body>
     </html>
   );
