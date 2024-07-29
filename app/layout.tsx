@@ -3,7 +3,7 @@ import Header from '@/components/Header';
 import './globals.css';
 import localFont from 'next/font/local';
 import PageTransition from '@/components/PageTransition';
-import StairTransition from '@/components/StairTransition';
+import SlideTransition from '@/components/SlideTransition';
 
 export const metadata: Metadata = {
   title: 'Angry Seal',
@@ -22,7 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={myFont.className}>
         <Header />
-        <StairTransition />
+        <SlideTransition />
         <PageTransition>{children}</PageTransition>
       </body>
     </html>
