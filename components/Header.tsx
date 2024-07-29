@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { Button } from './ui/button';
 import Nav from './Nav';
 import MobileNav from './MobileNav';
+import { FiDownload } from 'react-icons/fi';
 
 const Header = () => {
   return (
@@ -16,8 +17,10 @@ const Header = () => {
 
         <div className="hidden xl:flex items-center gap-8">
           <Nav />
-          <Link href="/contact">
-            <Button className="">Hire Me</Button>
+          <Link href="/">
+            <Button className="uppercase flex items-center gap-2">
+              Download CV <FiDownload />
+            </Button>
           </Link>
         </div>
 

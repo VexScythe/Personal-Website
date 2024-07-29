@@ -8,7 +8,7 @@ import { links } from '../lib/COSTANTS';
 const Nav = () => {
   const pathname = usePathname();
   return (
-    <nav className="flex gap-8">
+    <nav className="flex gap-10">
       {links.map((link, i) => {
         return (
           <Link
@@ -16,7 +16,7 @@ const Nav = () => {
             key={i}
             className={`${
               link.path === pathname && 'text-accent border-b-2 border-accent'
-            } capitalize font-medium hover:text-accent-hover transition-all`}
+            }  capitalize font-medium hover:text-accent-hover transition-all`}
           >
             {link.name}
           </Link>
