@@ -39,7 +39,7 @@ export interface Project {
   name: string;
   description: string;
   siteLink: string;
-  githubLink: string;
+  githubLink?: string;
   techs: string[];
 }
 
@@ -54,7 +54,6 @@ export const PROJECT_CARDS: Project[] = [
                   generation, Tailwind CSS and WordPress as the CMS, integrated with
                   GraphQL for efficient data management.`,
     siteLink: 'https://www.ondalternativa.it',
-    githubLink: 'https://github.com/scerelli/ondalternativa',
     techs: ['Astro', 'Tailwind', 'GraphQL'],
   },
 ];
