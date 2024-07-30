@@ -25,13 +25,6 @@ const Contact = () => {
             </div>
             <div className="flex bg-secondary rounded-xl items-center p-4 gap-4">
               <div className="flex gap-2 items-center">
-                <FaPhone className="w-6 h-6 text-accent" />
-                <p className="text-base uppercase font-semibold">PHONE:</p>
-              </div>
-              <p className="text-end w-full">{`(+39) 348 4268573`}</p>
-            </div>
-            <div className="flex bg-secondary rounded-xl items-center p-4 gap-4">
-              <div className="flex gap-2 items-center">
                 <FaGithub className="w-6 h-6 text-accent" />
                 <p className="text-base uppercase font-semibold">GITHUB:</p>
               </div>
