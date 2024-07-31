@@ -21,7 +21,7 @@ const Contact = () => {
                 <IoMdMail className="w-6 h-6 text-accent" />
                 <p className="text-base uppercase font-semibold">E-MAIL:</p>
               </div>
-              <p className="text-end">davide.ludovici@yahoo.it</p>
+              <p className="text-end">davide.ludovici.wd@gmail.com</p>
             </div>
             <div className="flex bg-secondary rounded-xl items-center p-4 gap-4">
               <div className="flex gap-2 items-center">
